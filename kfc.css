@@ -1,0 +1,280 @@
+body{
+    margin: 0px;
+}
+
+.Location-Tag {
+    height: 13px;
+    width: 18px;
+    margin-right: 3px;
+    margin-top: -1px;
+    padding-top: 10px;
+    ;
+    
+}
+
+.Location-image{
+    display: inline;
+}
+
+
+.Location-div{
+    display: inline;
+    font-family: "Roboto" , sons-serif;
+    font-weight: 400;
+}
+
+.Location-text{
+    display: inline;
+}
+
+
+.Location-heading{
+    display: block;
+    margin-left: 505px;
+    font-size: 14px;
+    margin-top: 12px;
+    
+}
+
+.Button-Location{
+    display: inline;
+}
+.Set-Location{
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    font-family: "Roboto" , sons-serif,arial;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.Set-Location:active{
+    opacity: 0.7;
+}
+
+
+.KFC-Logo{
+    margin: 38px 44.26px 39.48px 130px;
+    cursor: pointer;
+}
+
+.Menu-Deals-Button{
+        display: flex;
+        align-items: center;
+}
+
+.Deals-Button{
+    margin-left: 20px;border: none;
+                    background-color: white;
+                    font-family: Lato, serif;
+                    font-weight: 600;
+                    font-style: normal;
+                    cursor: pointer;
+}
+
+.Menu-Button{
+    margin-left: -14px;
+    margin-right: 10px;
+    border: none;
+    background-color: white;
+    font-family: Lato, serif;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+} 
+
+.Below-Location-Left-Side-Sign-in{
+    padding-left: 1px;
+    font-family: Lato, serif;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.Header-Bottom{
+    background-color: rgb(33, 30, 30);
+    display: flex;
+    flex-direction: row;
+    margin-top: 105px;
+    padding-top: 50px;
+    line-height: 3;
+}
+
+.centering-div{
+    
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 30, 30);
+    display: flex;
+    flex-direction: row;
+}
+
+.headBottomTxt{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 598px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.Start-Order-Div{
+    margin-right: 30px;
+    margin-left: 33px;
+}
+.Start-Order-Button{
+    background-color: red;
+    color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border-radius: 90px;
+   
+}
+.Start-Order-Button:hover{
+    background-color: rgb(214, 6, 6);
+}
+.Below-Image-Text{
+    display: flex;
+}
+
+.BIT{
+    margin-left: 256px;
+    margin-top: 169px;
+    width: 100%;
+    font-size: 27px;
+}
+.Header{
+    position: fixed;
+    margin-top: -105px;
+    background-color: white;
+    width: 100%;
+}
+.Below-Image{
+    display: flex;
+    flex-direction: row;
+}
+.Line-Browse{
+    border-color: gray;
+    border-style: solid;
+    border-width: 2px;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    height: 1px;
+    width: 100%;
+    margin-top: 181px;
+    width: 880px;
+    margin-left: 22px;
+}
+
+.Grid-Menu-1{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin:auto;
+    column-gap: 50px;
+    row-gap: 30px;
+    margin-left: 250px;
+    margin-right: 150px;
+    margin-top: 65px;
+    margin-bottom: 40px;
+    
+    
+}
+.Menu-Title-1{
+    background-color: rgb(236, 236, 227);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   margin-top: 0px;
+}
+.img1{
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 0px;
+}
+.Menu1{
+    display: grid;
+    
+}
+.Below-Menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(31, 30, 30);
+    color: #fff;
+}
+.EXCLUSIVE{
+    margin-top: 100px;
+    margin-left: 240px;
+    font-size: 34px;
+}
+.VEIW{
+    margin-top: 107px;
+    margin-right: 95px;
+}
+#BURGER{
+    background-color: rgb(31, 30, 30);
+    padding-left: 100px;
+}
+    
+.Burger-Images{
+    width: 19%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.Z{ 
+    margin-left: 0px;
+    padding-left: 0px;
+        width: 100%;
+        padding-top: 33px;
+        background-color:rgb(31, 30, 30);
+        
+}
+.Footer-Main{
+    background-color: #1f1e1e;
+}
+.Footer{
+    background-color:rgb(31, 30, 30);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 90%;
+    margin-top: 0px;
+    margin-left: 100px;
+    padding-top: 123px;
+    padding-left: 140px;
+
+    
+}
+.Foot-Text{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.FIND-KFC{
+    background-color: rgb(31, 30, 30);
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: white
+    
+    
+    
+}
